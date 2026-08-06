@@ -437,7 +437,7 @@ target_R = st.slider(
 if st.button("Generate Optimal Thickness"):
     try:
         # Load Dynamic Single Layer Model
-        rf_model = joblib.load("rf_tmm_model_single_dynamic.pkl")
+        rf_model = joblib.load("rf_tmm_model_single_dynamic.pkl.bz2")
         
         # 5 Input Features: [Wavelength, n_inc, n_film, n_sub, Target_R]
         input_features = np.array([[target_lam, target_n_inc, target_n_film, target_n_sub, target_R]])
