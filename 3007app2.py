@@ -204,7 +204,7 @@ def calc_tmm_global(pol, n_c, d_nm, th_arr_rad, lam_val):
 # UI TABS SETUP
 # ==========================================
 # Membuat dua tab utama untuk memisahkan konten
-tab1, tab2 = st.tabs(["📊 1D Analytical Results (R, T, A)", "🌊 2D Field Profiles"])
+tab1, tab2 = st.tabs(["1D Analytical Results (R, T, A)", "2D Field Profiles"])
 
 # ==========================================
 # TAB 1: 1D TMM CALCULATION & DYNAMIC PLOTTING
